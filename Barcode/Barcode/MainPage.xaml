@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             x:Class="BarcodeScanner.MainPage">
+
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <zxing:ZXingScannerView x:Name="scanne" WidthRequest="400" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Button Text="Сканировать" Clicked="ScanButton_Clicked" VerticalOptions="End" HorizontalOptions="Center"/>
+
+        <ListView x:Name="scannedListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
