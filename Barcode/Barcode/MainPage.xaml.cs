@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Linq;
 using Xamarin.Forms;
 using ZXing.Mobile;
 
@@ -8,13 +9,13 @@ namespace BarcodeScanner
     public partial class MainPage : ContentPage
     {
         private MobileBarcodeScanner scanner;
-        private ObservableCollection<string> scannedCodes;
+        private ObservableCollection<Tuple<int, string>> scannedCodes;
 
         public MainPage()
         {
             InitializeComponent();
             scanner = new MobileBarcodeScanner();
-            scannedCodes = new ObservableCollection<string>();
+            scannedCodes = new ObservableCollection<Tuple<int, string>>();
             scannedListView.ItemsSource = scannedCodes;
         }
 
@@ -32,7 +33,7 @@ namespace BarcodeScanner
 
                 if (result != null)
                 {
-                    scannedCodes.Add(result.Text);
+                    scannedCodes.Add(new Tuple<int, string>(scannedCodes.Count + 1, result.Text));
                     await DisplayAlert("Результат", "Содержимое кода: " + result.Text, "OK");
                 }
                 else
@@ -45,5 +46,18 @@ namespace BarcodeScanner
                 await DisplayAlert("Ошибка", "Произошла ошибка: " + ex.Message, "OK");
             }
         }
+
+        private void DeleteButton_Clicked(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            var itemText = (string)button.CommandParameter;
+
+            var itemToRemove = scannedCodes.FirstOrDefault(item => item.Item2 == itemText);
+            if (itemToRemove != null)
+            {
+                scannedCodes.Remove(itemToRemove);
+            }
+        }
+
     }
 }

@@ -10,7 +10,13 @@
         <ListView x:Name="scannedListView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding}" />
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Item1}" />
+                            <Label Text="{Binding Item2}" />
+                            <Button Text="Удалить" Clicked="DeleteButton_Clicked" CommandParameter="{Binding Item2}" />
+                        </StackLayout>
+                    </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
