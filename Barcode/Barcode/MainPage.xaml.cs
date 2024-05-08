@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using Xamarin.Forms;
 using ZXing.Mobile;
 
@@ -8,13 +10,13 @@ namespace BarcodeScanner
 {
     public partial class MainPage : ContentPage
     {
-        private MobileBarcodeScanner scanner;
         private ObservableCollection<Tuple<int, string>> scannedCodes;
+        private int userId; // Идентификатор пользователя
 
-        public MainPage()
+        public MainPage(int userId)
         {
             InitializeComponent();
-            scanner = new MobileBarcodeScanner();
+            this.userId = userId;
             scannedCodes = new ObservableCollection<Tuple<int, string>>();
             scannedListView.ItemsSource = scannedCodes;
         }
@@ -23,6 +25,7 @@ namespace BarcodeScanner
         {
             try
             {
+                var scanner = new MobileBarcodeScanner();
                 var options = new MobileBarcodeScanningOptions
                 {
                     TryHarder = true,
@@ -47,6 +50,33 @@ namespace BarcodeScanner
             }
         }
 
+        private async void ConnectToServer_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                string serverIpAddress = "192.168.1.4"; // Замените на IP-адрес вашего сервера
+                int serverPort = 8888;
+
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri($"http://{serverIpAddress}:{serverPort}/api/");
+
+                    foreach (var code in scannedCodes)
+                    {
+                        var content = new StringContent(code.Item2, Encoding.UTF8, "application/json");
+                        var response = await client.PostAsync($"Basket/{userId}/one", content); // Используем идентификатор пользователя
+                        response.EnsureSuccessStatusCode();
+                    }
+                }
+
+                await DisplayAlert("Успех", "Данные успешно отправлены на сервер", "OK");
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Ошибка", $"Произошла ошибка при подключении к серверу: {ex.Message}", "OK");
+            }
+        }
+
         private void DeleteButton_Clicked(object sender, EventArgs e)
         {
             var button = (Button)sender;
@@ -58,6 +88,5 @@ namespace BarcodeScanner
                 scannedCodes.Remove(itemToRemove);
             }
         }
-
     }
 }

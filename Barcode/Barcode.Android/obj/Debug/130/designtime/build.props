@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638480295439740107
+_nugetassetstimestamp=638494846021713081
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\projects\barcode\barcode\barcode.android\barcode.android.csproj
+projectfullpath=d:\projects\scan\barcode\barcode.android\barcode.android.csproj

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o5igxsTHgF6UQiGf0NQQvS0Wz36OGWKotdhcof1xUIiw0sfxXgC5w4GupqoHMCmb5kjIK2ID2S06I1PvYmqKuA==",
+  "dgSpecHash": "63QMGIy0gODzxCvlDvXy2qXniIyV0ZtKrBUQqH5YiSEIrkCPrrOSANxZXYqXNR64AvfyLVjt6l68LlcHZNVrRw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj",
+  "projectFilePath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

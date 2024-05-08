@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj": {}
+    "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj": {
+    "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
+        "projectUniqueName": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
         "projectName": "Barcode.iOS",
-        "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
+        "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\obj\\",
+        "outputPath": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj": {
-                "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj"
+              "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj": {
+                "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj": {
+    "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj",
+        "projectUniqueName": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj",
         "projectName": "Barcode",
-        "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj",
+        "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj",
         "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\obj\\",
+        "outputPath": "D:\\Projects\\scan\\Barcode\\Barcode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

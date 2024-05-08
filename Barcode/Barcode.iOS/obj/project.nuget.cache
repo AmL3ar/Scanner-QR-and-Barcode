@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rF1kmoRvUWs++bAnL2DHFhOVQZVNLXTzt2ytLUCdBYzgod6Fo/Tzr4pCuWluuvutasQ0xXBH1MIZXlAJ6vwhw==",
+  "dgSpecHash": "T2zKaLf3RaG9jXLR2INuZZs+jW55ORCb5UN2BvsPFxTVsL9cMmMPCAmnE/BXZAPbf4EQQJfoXzMDO8DuaC+aCg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
+  "projectFilePath": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

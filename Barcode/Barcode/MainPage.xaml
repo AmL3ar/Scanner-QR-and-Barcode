@@ -6,6 +6,7 @@
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
         <zxing:ZXingScannerView x:Name="scanne" WidthRequest="400" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="Center"/>
         <Button Text="Сканировать" Clicked="ScanButton_Clicked" VerticalOptions="End" HorizontalOptions="Center"/>
+        <Button Text="Подключиться к серверу" Clicked="ConnectToServer_Clicked" VerticalOptions="End" HorizontalOptions="Center"/>
 
         <ListView x:Name="scannedListView">
             <ListView.ItemTemplate>

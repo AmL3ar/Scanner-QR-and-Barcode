@@ -719,11 +719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj",
+      "projectUniqueName": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj",
       "projectName": "Barcode",
-      "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj",
+      "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\obj\\",
+      "outputPath": "D:\\Projects\\scan\\Barcode\\Barcode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

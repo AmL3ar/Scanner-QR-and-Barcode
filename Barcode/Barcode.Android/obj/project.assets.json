@@ -3825,11 +3825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Barcode\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
+      "projectUniqueName": "D:\\Projects\\scan\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
       "projectName": "Barcode.Android",
-      "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
+      "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.Android\\obj\\",
+      "outputPath": "D:\\Projects\\scan\\Barcode\\Barcode.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3850,8 +3850,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj": {
-              "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj"
+            "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj": {
+              "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MEBYYu0M33XOqYoEPv4PzlkXew+FH//oP9/4tgiLNoaBHXhkIXDfMmh2ISaheDMjzby/KUJagDYa+Ji9sTcrhQ==",
+  "dgSpecHash": "vFAs+FKK6WnJ7QvyRohI6ztcE9KHsKXjAbQBciT/zoaQOj9N7+WKOFatMK20eO8sCwmxeB5gBBYny3tlQ45R1w==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Barcode\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
+  "projectFilePath": "D:\\Projects\\scan\\Barcode\\Barcode.Android\\Barcode.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artem\\.nuget\\packages\\fastandroidcamera\\2.0.0\\fastandroidcamera.2.0.0.nupkg.sha512",
     "C:\\Users\\artem\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

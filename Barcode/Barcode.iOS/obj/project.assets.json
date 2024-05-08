@@ -1615,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
+      "projectUniqueName": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
       "projectName": "Barcode.iOS",
-      "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
+      "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\Barcode.iOS.csproj",
       "packagesPath": "C:\\Users\\artem\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Barcode\\Barcode\\Barcode.iOS\\obj\\",
+      "outputPath": "D:\\Projects\\scan\\Barcode\\Barcode.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1640,8 +1640,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj": {
-              "projectPath": "D:\\Projects\\Barcode\\Barcode\\Barcode\\Barcode.csproj"
+            "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj": {
+              "projectPath": "D:\\Projects\\scan\\Barcode\\Barcode\\Barcode.csproj"
             }
           }
         }
@@ -1658,14 +1658,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.0, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
